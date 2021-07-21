@@ -1,3 +1,13 @@
+# [原项目地址](https://github.com/rs/dnscache)
+  
+fork from https://github.com/rs/dnscache
+
+try to add dnscache_sync, use sync map instead of map + mutex,
+when visit a few certain host/ip, we can use dnscache_sync
+
+
+# 以下为原版README
+
 # DNS Lookup Cache
 
 [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/rs/dnscache/master/LICENSE)
@@ -76,3 +86,8 @@ options.ClearUnused = true
 options.PersistOnFailure = false
 resolver.RefreshWithOptions(options)
 ```
+
+[]: https://github.com/rs/dnscache
+
+[原项目地址]: https://github.com/rs/dnscache
+
